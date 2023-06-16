@@ -9,6 +9,9 @@
   to = "/.netlify/functions/api"
   status = 200
   force = true
+[[redirects]]
+  from = "/analytics.js"
+  to = "/tracker.js"
 
 [template.environment]
   ACKEE_MONGODB = "ACKEE_MONGODB"
